@@ -23,7 +23,6 @@ class Game extends UI{
       mines: 99
     }
   }
-
 #counter = new Counter();
 #timer = new Timer();
 #modal = new Modal();
@@ -45,8 +44,6 @@ class Game extends UI{
   normal: null,
   expert: null,
   reset: new ResetButton(),
-
-
 }
 
 
@@ -281,7 +278,6 @@ class Game extends UI{
   #getRandomInteger(min, max) {
     return Math.floor(Math.random() * (max-min + 1)) + min;
   }
-
 }
 
 window.onload = function() {

@@ -9,12 +9,9 @@ export class Modal extends UI{
 
     toggleModal = () => {
         this.element.classList.toggle('hide')
-
-
     }
     setText() {
         this.header.textContent = this.infoText;
         this.button.textContent = this.buttonText; 
-
     }
 }

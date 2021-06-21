@@ -8,8 +8,6 @@ export class ResetButton extends UI{
 
     changeEmotion(emotion) {
         this.element.querySelector('use').setAttribute('href', `./assets/sprite.svg#${emotion}`);
-
-
     }
 
 }

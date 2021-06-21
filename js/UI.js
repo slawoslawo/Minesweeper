@@ -11,11 +11,6 @@ export class UI {
     modal: '[data-modal]',
     modalHeader: '[data-modal-header]',
     modalButton: '[data-modal-button]',
-
-
-
-
-
   }
   getElement(selector){
     return document.querySelector(selector)
